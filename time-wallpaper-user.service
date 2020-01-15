@@ -1,0 +1,8 @@
+[Unit]
+Description=Time Wallpaper
+
+[Service]
+ExecStart=/usr/bin/bash /home/obergodmar/Documents/Development/shell-scripts/time-wallpaper/time-wallpaper.sh -q
+
+[Install]
+WantedBy=default.target
